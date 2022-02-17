@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        
+        
+        <div id="mainMenu" class="mainMenu">
+            <div id="foto-nome">
+            
+                <div id="foto"></div>
+                <div id="nome"><p>nome</p></div>
+
+                
+
+            </div>
+            <ul>
+                <li><a href="#">consulta</a></li>
+                <li><a href="#">consulta</a></li>
+                <li><a href="#">consulta</a></li>
+                <li><a href="#">consulta</a></li>
+                <li><a href="#">consulta</a></li>
+                <li><a href="#">consulta</a></li>
+            </ul>
+        </div>
+        <div><div id="menu-space"></div>                 <!--Aqui ficará o meu menu-->
+        <div id="gastos">
+            <h2>Gastos</h2>
+            <div id="gastos-content">
+                <form action="get">
+                    <label for="">LAZER</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">PRESTAÇÃO 1</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">PRESTAÇÃO 2</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">PRESTAÇÃO 3</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">INTERNET</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">CONTA DE ÁGUA</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">CONTA DE LUZ</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">COMPRAS(EM GERAL)</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                <form action="get">
+                    <label for="">CREDITO CELULAR</label>
+                    <input type="number" placeholder="R$ 00,00">
+                </form>
+                
+
+                
+
+
+
+            </div>
+        </div>
+        <div>
+            <div id="total-gastos">
+
+            </div>
+            <button id="gastos-button"> Enviar Gastos</button>
+        </div>
+        </div>
+        <!--Parte que mostra o saldo da aplicação-->
+        <div>
+            <div id="saldo">
+                <h3>Saldo</h3>
+                <div id="line"></div>
+                <h4>Seu saldo é:</h4>
+                <div id="display-saldo"></div>
+            </div>
+            <img src="img_project/icon_cash.png" id= "icon-cash">
+            <div id="img-animation">
+                <img class="img-pig" src="img_project/simple_pig.jpg">
+            </div>
+        <div id="economia">
+            <h2>Economia</h2>
+            <div id="economia-content">
+            <form action="get">
+                <label for="">POUPANÇA DE EMERGENCIA</label>
+                <input type="number" placeholder="R$ 00,00">
+            </form>
+            <form action="get">
+                <label for="">POUPANÇA A CURTO PRAZO</label>
+                <input type="number" placeholder="R$ 00,00">
+            </form>
+            <form action="get">
+                <label for="">POUPANÇA A LONGO PRAZO</label>
+                <input type="number" placeholder="R$ 00,00">
+            </form>
+            
+            </div>
+        </div>
+        <div>
+            <div id="total-economia">
+
+            </div>
+            <button id="economia-button"> Enviar poupança</button>
+        </div>
+        </div>
+
+        
+       
+
+       
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
