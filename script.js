@@ -24,6 +24,20 @@ foto.addEventListener('click', function(){
     mainMenu.style.display="none";
 })
 
+/* Quando clicar no botão "Enviar Gastos o PIG muda a imagem "*/
+var pigDollar = document.getElementById("pig-dollar");
+var pigCoin= document.getElementById("pig-coin");
+var simplePig = document.getElementById("simple-pig")
+var gastosButton= document.getElementById("gastos-button");
+
+gastosButton.addEventListener('click', function(){
+    
+    simplePig.style.display= "none";
+    pigDollar.style.display="block";
+})
+
+
+
 
 
 

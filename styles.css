@@ -19,10 +19,19 @@ body{
     width: 140px;
     height: 120px;
 }
-#img-animation{
+#pig-dollar{
+    display: none;
+}
+#pig-coin{
+    display: none;
+}
+
+
+.img-animation{
     width:140px;
     height:120px ;
-    float: right;
+    margin-left: 350px;
+    position: absolute;
     
 }
 #economia{
@@ -63,7 +72,7 @@ h2{
     height: 300px;
     width: 230px;
     background-color: grey;
-    position: absolute;
+    position: fixed;
     border-radius: 20px;
     display: none;
     
